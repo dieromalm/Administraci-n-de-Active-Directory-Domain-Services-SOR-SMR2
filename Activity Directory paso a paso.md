@@ -13,4 +13,10 @@
 <img width="831" height="567" alt="image" src="https://github.com/user-attachments/assets/1f6f7701-76e0-4203-92b2-09ad2fe59ff6" />
 <img width="758" height="231" alt="image" src="https://github.com/user-attachments/assets/f9a8c156-7e7f-46ba-a36b-e0448cd54431" />
 
-  - Creamos un dominio en el servidor de Windows.
+  - Configuramos la IPv4 y el DNS.
+
+<img width="396" height="455" alt="image" src="https://github.com/user-attachments/assets/89b62493-9c69-4ef4-be0f-a90f230c0495" />
+
+  - Instalamos el rol de administrador de dominio de Activity Directory y creamos un nuevo bosque.
+
+<img width="813" height="585" alt="image" src="https://github.com/user-attachments/assets/fd8557a3-8c3c-4b71-9393-ce1951a49ee4" />
