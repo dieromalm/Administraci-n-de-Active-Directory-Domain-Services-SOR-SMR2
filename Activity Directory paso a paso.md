@@ -20,3 +20,8 @@
   - Instalamos el rol de administrador de dominio de Activity Directory y creamos un nuevo bosque.
 
 <img width="813" height="585" alt="image" src="https://github.com/user-attachments/assets/fd8557a3-8c3c-4b71-9393-ce1951a49ee4" />
+
+  - Una vez que lo instalemos todo, el servidor se reiniciara solo y tendremos ya nuestro controlador de dominio creado.
+
+<img width="488" height="560" alt="image" src="https://github.com/user-attachments/assets/fcb84ed5-1fd4-4591-aab2-6574866590ee" />
+
