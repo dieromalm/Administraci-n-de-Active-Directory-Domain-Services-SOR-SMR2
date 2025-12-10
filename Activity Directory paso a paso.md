@@ -5,4 +5,5 @@
 <img width="133" height="26" alt="image" src="https://github.com/user-attachments/assets/851a9138-b39e-4cc1-94a4-9e8f4fa82e75" />
 
   - Instalamos una maquina virtual en VirtualBox de Windows Server 2019.
+  - Cambiamos la IPv4, la Mascara de red y el DNS de servidor 
   - Creamos un dominio en el servidor de Windows.
