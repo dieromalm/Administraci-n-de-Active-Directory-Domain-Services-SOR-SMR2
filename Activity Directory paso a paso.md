@@ -1,4 +1,4 @@
-<img width="187" height="209" alt="image" src="https://github.com/user-attachments/assets/50d476a7-0fb7-4bc9-b673-efb2412a57ca" />## ADMINISTRACIÓN DEL ACTIVE DIRECTORY
+## ADMINISTRACIÓN DEL ACTIVE DIRECTORY
   - Primero instalamos Hyper-V dentro de nuestro ordenador.
 
 <img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/4ce3cb5b-a095-425b-af70-7b821211c1a8" />
