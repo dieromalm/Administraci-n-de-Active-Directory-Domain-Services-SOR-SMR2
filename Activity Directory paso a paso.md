@@ -1,4 +1,4 @@
-## ADMINISTRACIÓN DEL ACTIVITY DIRECTORY
+## ADMINISTRACIÓN DEL ACTIVE DIRECTORY
   - Primero instalamos Hyper-V dentro de nuestro ordenador.
 
 <img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/4ce3cb5b-a095-425b-af70-7b821211c1a8" />
@@ -17,11 +17,11 @@
 
 <img width="396" height="455" alt="image" src="https://github.com/user-attachments/assets/89b62493-9c69-4ef4-be0f-a90f230c0495" />
 
-  - Instalamos el rol de administrador de dominio de Activity Directory y creamos un nuevo bosque.
+  - Instalamos el rol de administrador de dominio de Active Directory y creamos un nuevo bosque.
 
 <img width="813" height="585" alt="image" src="https://github.com/user-attachments/assets/fd8557a3-8c3c-4b71-9393-ce1951a49ee4" />
 
-  - Una vez que lo instalemos todo, el servidor se reiniciara solo y tendremos ya nuestro controlador de dominio creado.
+  - Una vez que lo instalemos todo, el servidor se reiniciará solo y tendremos ya nuestro controlador de dominio creado.
 
 <img width="488" height="560" alt="image" src="https://github.com/user-attachments/assets/fcb84ed5-1fd4-4591-aab2-6574866590ee" />
 
