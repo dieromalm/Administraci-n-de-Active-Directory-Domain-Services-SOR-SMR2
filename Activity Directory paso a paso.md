@@ -77,5 +77,21 @@
 ## CREA UN USUARIO
   - Damos click derecho a "Sydney" y creamos nuevo usuario
 
+<img width="426" height="376" alt="image" src="https://github.com/user-attachments/assets/35805970-287a-48d6-b51d-afb2c3468dd5" />
+<img width="314" height="65" alt="image" src="https://github.com/user-attachments/assets/fc5ce89e-64f7-4878-a9df-1ff22c658d55" />
 
+  - Ponemos una fecha de expiracion a la cuenta entrado a sus propiedades.
 
+<img width="444" height="546" alt="image" src="https://github.com/user-attachments/assets/eb51fb5c-113c-4050-bffd-12c9fe159384" />
+
+  - Copiamos el usuario creado y a partir de ello creamos otros 2 mas y los movemos a sus respectivas carpetas.
+
+<img width="284" height="112" alt="image" src="https://github.com/user-attachments/assets/748bbbd0-47fc-4bd5-a899-5d662f28b63e" />
+<img width="178" height="191" alt="image" src="https://github.com/user-attachments/assets/a8f6a4fa-1c2c-4920-98f4-7adf2847ca17" />
+
+## CREAR EL GRUPO DE ADMINISTRADORES DE SYDNEY
+  - Hacemos click derecho en el dominio "Sydney" y creamos un nuevo grupo.
+
+<img width="470" height="426" alt="image" src="https://github.com/user-attachments/assets/382ccdf3-07f8-4106-984e-5e786cb1b38a" />
+
+  - Creamosm
