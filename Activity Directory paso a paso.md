@@ -152,3 +152,20 @@
 
 <img width="404" height="313" alt="image" src="https://github.com/user-attachments/assets/ced3f4d0-00c6-46da-96ac-3eade3756945" />
 
+## CONFIGURAR LA POLITICA DE CONTRASEÑAS DEL DOMINIO
+  - En el administrador del servidor, en "Herramientas" le damos a "Administracion de directivas de grupos".
+
+<img width="788" height="566" alt="image" src="https://github.com/user-attachments/assets/f5331c54-ca44-4f1f-8e67-437e4aade844" />
+
+  - Le damos click derecho a "Default Domain Policy"
+
+<img width="424" height="468" alt="image" src="https://github.com/user-attachments/assets/1a1901ab-baf0-4be3-a183-3b961506fdc3" />
+
+  - Entramos en "Configuracion del equipo/directivas/directivas de cuentas/directivas de contraseñas"
+
+<img width="792" height="556" alt="image" src="https://github.com/user-attachments/assets/88505879-913f-4c35-afab-f89ea20ef674" />
+
+  - Establecemos en "Longitud minima de la contraseña" que debe tener almenos 14 caracteres al menos.
+
+<img width="825" height="643" alt="image" src="https://github.com/user-attachments/assets/43eb20eb-d9b7-40e9-97d7-01c19249b767" />
+
