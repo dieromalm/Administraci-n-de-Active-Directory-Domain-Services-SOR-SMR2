@@ -1,4 +1,4 @@
-## ADMINISTRACIÓN DEL ACTIVE DIRECTORY
+<img width="742" height="558" alt="image" src="https://github.com/user-attachments/assets/c9c80474-3183-4087-a546-942daa38c38e" />## ADMINISTRACIÓN DEL ACTIVE DIRECTORY
   - Primero instalamos Hyper-V dentro de nuestro ordenador.
 
 <img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/4ce3cb5b-a095-425b-af70-7b821211c1a8" />
@@ -169,3 +169,68 @@
 
 <img width="825" height="643" alt="image" src="https://github.com/user-attachments/assets/43eb20eb-d9b7-40e9-97d7-01c19249b767" />
 
+## CONFIGURAR UNA POLITICA DE CONTRASEÑA DE GRANO FINO
+  - Vamos a "Administrador de servicio" y "Herramientas" para entras a "Administracion de Active Directory"
+
+<img width="938" height="211" alt="image" src="https://github.com/user-attachments/assets/1e7b5c56-687c-4530-9e93-552e26ea0058" />
+
+  - Entramos el "Tailwindtraders (local)" y entramos a "System/Password Settings Container" y le hacemos click derecho para crear una configuracion de contraseña.
+
+<img width="928" height="586" alt="image" src="https://github.com/user-attachments/assets/254f720a-a898-4af4-b3fc-1cdc5343e113" />
+
+  - Le establecemos la configuracion necesaria y le damos a "Aceptar"
+
+<img width="922" height="594" alt="image" src="https://github.com/user-attachments/assets/980a41e6-d9b2-4d34-95d4-4a94c19174c8" />
+
+  - Pero antes ten en cuenta que debemos agregar al usuario "Domain Admins" primero (tienes que crear un usuario para que te deje).
+
+<img width="567" height="335" alt="image" src="https://github.com/user-attachments/assets/23332588-169a-458d-8eac-d5a3831eb2dd" />
+
+## COMO HABILITAR LA PAPELERA DE RECICLAJE EN ACTIVE DIRECTORY
+  - Le damos click derecho a "tailwindtraders (local)" y le damos a "Hablitar papelera de reciclaje" para darle a "Aceptar"
+
+<img width="858" height="299" alt="image" src="https://github.com/user-attachments/assets/04ee2595-816e-4abc-a431-8ab0ee467769" />
+
+## RESTRINGIR LA AUTENTIFICACION NTLM
+  - Vamos a "Administrador de servicio" y "Herramientas" para entras a "Administracion de directiva de grupos"
+
+<img width="938" height="658" alt="image" src="https://github.com/user-attachments/assets/4b3de416-c89d-4e88-b8ce-a177551f3e3a" />
+
+  - Entramos a "Default Domain Controllers Policy" y le damos click derecho para editarlo
+
+<img width="785" height="579" alt="image" src="https://github.com/user-attachments/assets/8fc28ccf-75cb-4ff6-92ea-c1ae229cdd37" />
+
+  - Entramos a "Opciones de seguridad" y hacemos doble click en "Seguridad de red: Restringir NTLM: Autenticación NTLM en este dominio".
+
+<img width="758" height="262" alt="image" src="https://github.com/user-attachments/assets/885c64f5-395a-4a44-a971-31076c5e1aa7" />
+
+  - Le damos a "Definir esta configuracion de directiva" y "Denegar todo"
+
+<img width="477" height="530" alt="image" src="https://github.com/user-attachments/assets/16823499-bbbd-4230-8f95-e8ec1b007354" />
+
+## ADUDITORIA DE LA GESTION DE CUENTAS DE USUARIO EN SYDNEY
+  - Entrados al OU de "Sydney" y le hacemos click derecho y le damos a "Crear un GPO en este dominio y vincularlo aquí"
+
+<img width="565" height="466" alt="image" src="https://github.com/user-attachments/assets/b72bfbae-0879-4bc6-a62a-07261e534424" />
+<img width="742" height="558" alt="image" src="https://github.com/user-attachments/assets/f341dad5-6f44-421a-9111-cd5e1220799b" />
+
+  - Entramos al "adminsitrador de cuentas" y le damos doble click a "Auditoría de gestión de cuentas de usuario"
+
+<img width="440" height="491" alt="image" src="https://github.com/user-attachments/assets/d71f942d-33d0-4411-b8b7-5eb9c4f2c594" />
+
+  - Una vez dentro hacemos lo siguiente de la imagen:
+
+<img width="434" height="538" alt="image" src="https://github.com/user-attachments/assets/fb862f1d-aef5-40ae-abd1-9a6151068fb1" />
+
+## DENEGAR EL INICIO DE SESION COMO SERVICIO
+  - Entramos de nuevo al "SydneyOUPolicy" y le hacemos click derecho para editar.
+
+<img width="867" height="602" alt="image" src="https://github.com/user-attachments/assets/f5b6c022-1b7f-4484-bc2d-eea171c401cf" />
+
+  - Entramos en "Asignación de derechos de usuario" y le damos doble click a "Denegar inicio de sesión como servicio" 
+
+<img width="889" height="633" alt="image" src="https://github.com/user-attachments/assets/53d11295-181d-4a6d-bfc4-4cb3e819e08f" />
+
+  - Una vez dentro le damos al a casilla y buscamos "Sydney Adminsitrators" y le damos a aceptar.
+
+<img width="682" height="583" alt="image" src="https://github.com/user-attachments/assets/52b2e2a4-cb2e-40dc-8138-3361b30881a9" />
