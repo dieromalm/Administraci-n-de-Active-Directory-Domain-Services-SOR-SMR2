@@ -103,7 +103,7 @@
 
 <img width="437" height="537" alt="image" src="https://github.com/user-attachments/assets/7bbe6f90-5290-4256-939e-6985f5695ac4" />
 
-##DELEGAR PERMISOS DE SEGURIDAD A UNA OU A UN GRUPO DE SEGURIDAD
+## DELEGAR PERMISOS DE SEGURIDAD A UNA OU A UN GRUPO DE SEGURIDAD
   - Le damos click derecho a "Sydney" y le hacemos click a "Delegar control".
 
 <img width="649" height="487" alt="image" src="https://github.com/user-attachments/assets/cb84d182-cd2b-4038-94f7-5b88a6a89e99" />
@@ -116,7 +116,7 @@
 
 <img width="495" height="389" alt="image" src="https://github.com/user-attachments/assets/40172d1b-7707-462e-811a-ed5db1db79d0" />
 
-##CONFIGURAR EL ATRIBUTO DE CIUDAD A UN USUARIO
+## CONFIGURAR EL ATRIBUTO DE CIUDAD A UN USUARIO
   - Le damos click derecho a "Sydney Constractors" y le hacemos click a "Propiedades".
 
 <img width="404" height="386" alt="image" src="https://github.com/user-attachments/assets/4939f5a8-13b3-459e-8b36-2482c81f5631" />
@@ -142,12 +142,12 @@
 <img width="578" height="418" alt="image" src="https://github.com/user-attachments/assets/4d21766e-e3af-4923-b909-c0d04c778774" />
 <img width="260" height="54" alt="image" src="https://github.com/user-attachments/assets/356754ea-b395-47cd-bdcd-af0c76a547a7" />
 
-##DESHABILITAR EL USUARIO CONTRATISTA DE MELBOURNE
+## DESHABILITAR EL USUARIO CONTRATISTA DE MELBOURNE
   - Entramos al OU de Melbourne y le damos click derecho a "Melbourne Contratista" y le damos a "Deshabilitar cuenta"
 
 <img width="357" height="115" alt="image" src="https://github.com/user-attachments/assets/5d2e408d-0516-48e5-a7a9-9b0783e612f7" />
 
-##RESTABLECER LA CONTRASEÑA DEL USUARIO BRISBANE
+## RESTABLECER LA CONTRASEÑA DEL USUARIO BRISBANE
   - Entramos al OU de Brisbane y le hamos click derecho a "Restablecer contraseña" y le cambiamos la contraseña
 
 <img width="404" height="313" alt="image" src="https://github.com/user-attachments/assets/ced3f4d0-00c6-46da-96ac-3eade3756945" />
