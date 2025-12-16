@@ -94,4 +94,61 @@
 
 <img width="470" height="426" alt="image" src="https://github.com/user-attachments/assets/382ccdf3-07f8-4106-984e-5e786cb1b38a" />
 
-  - Creamosm
+  - Una vez creado, le damos a la pestaña de "Miembros" y añadimos el grupo creado.
+
+<img width="452" height="501" alt="image" src="https://github.com/user-attachments/assets/192e162a-3171-4e4e-acbc-03a86069be95" />
+
+##CONFIGURAR UN USUARIO COMO UN USUARIO PRIVILEGIADO
+  - Hacemos doble click en "Sydney Contrators" y agregamos un miembro que ponga "Protected users".
+
+<img width="437" height="537" alt="image" src="https://github.com/user-attachments/assets/7bbe6f90-5290-4256-939e-6985f5695ac4" />
+
+##DELEGAR PERMISOS DE SEGURIDAD A UNA OU A UN GRUPO DE SEGURIDAD
+  - Le damos click derecho a "Sydney" y le hacemos click a "Delegar control".
+
+<img width="649" height="487" alt="image" src="https://github.com/user-attachments/assets/cb84d182-cd2b-4038-94f7-5b88a6a89e99" />
+
+  - Agregamos a "Sydney Administrators"
+
+<img width="541" height="325" alt="image" src="https://github.com/user-attachments/assets/d816a71e-1340-4670-9d00-7c41ec004678" />
+
+  - Le damos a la opcion "Restablecer contraseñas de usuario y forzar el cambio de contraseña en el próximo inicio de sesión".
+
+<img width="495" height="389" alt="image" src="https://github.com/user-attachments/assets/40172d1b-7707-462e-811a-ed5db1db79d0" />
+
+##CONFIGURAR EL ATRIBUTO DE CIUDAD A UN USUARIO
+  - Le damos click derecho a "Sydney Constractors" y le hacemos click a "Propiedades".
+
+<img width="404" height="386" alt="image" src="https://github.com/user-attachments/assets/4939f5a8-13b3-459e-8b36-2482c81f5631" />
+
+  - Le damos al apartado "Direccion" y ponemos en "Ciudad: Sydney"
+
+<img width="515" height="561" alt="image" src="https://github.com/user-attachments/assets/ae6d07cd-4ed1-4500-ac13-302cba32bf07" />
+
+  - Le damos click derecho a "Tailwindtrader.internal" y le damos a "Buscar".
+
+<img width="571" height="354" alt="image" src="https://github.com/user-attachments/assets/e138ca96-0724-498e-b734-47c849c056de" />
+
+  - Le damos a "Campo" y dentro de la casilla "Usuarios" le damos a "Ciudad".
+
+<img width="671" height="778" alt="image" src="https://github.com/user-attachments/assets/b62dbcee-7ff0-42a0-81d4-690ad826b8a2" />
+
+  - Lo establecemos de la siguiente manera:
+
+<img width="581" height="364" alt="image" src="https://github.com/user-attachments/assets/6bccf53c-c6b7-4aa0-a851-b1ce32392e0d" />
+
+  - Saldra esta ventana y le daremos a "Si" para agregar el criterio que le hemos dado.
+
+<img width="578" height="418" alt="image" src="https://github.com/user-attachments/assets/4d21766e-e3af-4923-b909-c0d04c778774" />
+<img width="260" height="54" alt="image" src="https://github.com/user-attachments/assets/356754ea-b395-47cd-bdcd-af0c76a547a7" />
+
+##DESHABILITAR EL USUARIO CONTRATISTA DE MELBOURNE
+  - Entramos al OU de Melbourne y le damos click derecho a "Melbourne Contratista" y le damos a "Deshabilitar cuenta"
+
+<img width="357" height="115" alt="image" src="https://github.com/user-attachments/assets/5d2e408d-0516-48e5-a7a9-9b0783e612f7" />
+
+##RESTABLECER LA CONTRASEÑA DEL USUARIO BRISBANE
+  - Entramos al OU de Brisbane y le hamos click derecho a "Restablecer contraseña" y le cambiamos la contraseña
+
+<img width="404" height="313" alt="image" src="https://github.com/user-attachments/assets/ced3f4d0-00c6-46da-96ac-3eade3756945" />
+
