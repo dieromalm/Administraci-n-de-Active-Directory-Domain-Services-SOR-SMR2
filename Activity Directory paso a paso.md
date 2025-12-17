@@ -4,7 +4,7 @@
 <img width="300" height="400" alt="image" src="https://github.com/user-attachments/assets/4ce3cb5b-a095-425b-af70-7b821211c1a8" />
 <img width="133" height="26" alt="image" src="https://github.com/user-attachments/assets/851a9138-b39e-4cc1-94a4-9e8f4fa82e75" />
 
-  - Instalamos una máquina virtual en el administrador Hyper-V de Windows Server 2019.
+  - Instalamos una máquina virtual en el administrador Hyper-V de Windows Server 2022.
     
 <img width="943" height="707" alt="image" src="https://github.com/user-attachments/assets/6da24225-c1ca-46d7-a4b3-20961d316cdd" />
 
@@ -44,20 +44,20 @@
 
 <img width="748" height="553" alt="image" src="https://github.com/user-attachments/assets/c69d38f3-c691-4b9b-8f2b-5d3bfaefe4bb" />
 
-  - Instalamos el asistente de configuracion de Active Directory como hemos hecho en el anterior (se reiniciara una vez instalado y tienes que volver a iniciar sesion)
+  - Instalamos el asistente de configuracion de Active Directory como hemos hecho en el anterior (se reiniciara una vez instalado y tienes que volver a iniciar sesion).
 
 ## TRANSFERENCIA DE ROLES OPERATIVOS FLEXIBLES DE UN SOLO MAESTRO
-  - Clickeamos "Herramientas" y le damos a Usuarios y equipos de Active Directory
+  - Clickeamos "Herramientas" y le damos a Usuarios y equipos de Active Directory.
 
 <img width="739" height="532" alt="image" src="https://github.com/user-attachments/assets/3d69037e-6e79-463a-ad11-985d990abf98" />
 
-  - Le hacemos click derecho al dominio y le damos a la opcion "Maestro de operaciones" y le damos al boton "Cambiar"
+  - Le hacemos click derecho al dominio y le damos a la opcion "Maestro de operaciones" y le damos al boton "Cambiar".
 
 <img width="391" height="449" alt="image" src="https://github.com/user-attachments/assets/3f5ee245-c786-4e52-935f-f753d810f954" />
 
 ## CREE UN SITIO DE ACTIVE DIRECTORY Y CONFIGURAR LA SUBRED PARA ESE SITIO
-  - Iniciamos sesion en el administrador de "TAILWIND-DC1"
-  - Abrimos "Sitios y Servicios" del apartado "Herramientas"
+  - Iniciamos sesion en el administrador de "TAILWIND-DC1".
+  - Abrimos "Sitios y Servicios" del apartado "Herramientas".
 
 <img width="794" height="552" alt="image" src="https://github.com/user-attachments/assets/1d679a2f-5ec1-477e-9125-ff97314508ba" />
 
@@ -70,12 +70,12 @@
 <img width="427" height="542" alt="image" src="https://github.com/user-attachments/assets/8eb371f5-2ff1-4dc7-9750-1352cdda5459" />
 
 ## CREAR UNIDADES ORGANIZATIVAS
-  -  Creamos en "Usuarios y equipos" una unidad organizativa (Creamos 3 que son Sydney, Melbourne y Brisbane)
+  -  Creamos en "Usuarios y equipos" una unidad organizativa (Creamos 3 que son Sydney, Melbourne y Brisbane).
 
  <img width="187" height="209" alt="image" src="https://github.com/user-attachments/assets/dee0b5a2-2f64-49d8-8834-1cda48de8295" />
 
 ## CREA UN USUARIO
-  - Damos click derecho a "Sydney" y creamos nuevo usuario
+  - Damos click derecho a "Sydney" y creamos nuevo usuario.
 
 <img width="426" height="376" alt="image" src="https://github.com/user-attachments/assets/35805970-287a-48d6-b51d-afb2c3468dd5" />
 <img width="314" height="65" alt="image" src="https://github.com/user-attachments/assets/fc5ce89e-64f7-4878-a9df-1ff22c658d55" />
@@ -98,7 +98,7 @@
 
 <img width="452" height="501" alt="image" src="https://github.com/user-attachments/assets/192e162a-3171-4e4e-acbc-03a86069be95" />
 
-##CONFIGURAR UN USUARIO COMO UN USUARIO PRIVILEGIADO
+## CONFIGURAR UN USUARIO COMO UN USUARIO PRIVILEGIADO
   - Hacemos doble click en "Sydney Contrators" y agregamos un miembro que ponga "Protected users".
 
 <img width="437" height="537" alt="image" src="https://github.com/user-attachments/assets/7bbe6f90-5290-4256-939e-6985f5695ac4" />
@@ -108,7 +108,7 @@
 
 <img width="649" height="487" alt="image" src="https://github.com/user-attachments/assets/cb84d182-cd2b-4038-94f7-5b88a6a89e99" />
 
-  - Agregamos a "Sydney Administrators"
+  - Agregamos a "Sydney Administrators".
 
 <img width="541" height="325" alt="image" src="https://github.com/user-attachments/assets/d816a71e-1340-4670-9d00-7c41ec004678" />
 
@@ -121,7 +121,7 @@
 
 <img width="404" height="386" alt="image" src="https://github.com/user-attachments/assets/4939f5a8-13b3-459e-8b36-2482c81f5631" />
 
-  - Le damos al apartado "Direccion" y ponemos en "Ciudad: Sydney"
+  - Le damos al apartado "Direccion" y ponemos en "Ciudad: Sydney".
 
 <img width="515" height="561" alt="image" src="https://github.com/user-attachments/assets/ae6d07cd-4ed1-4500-ac13-302cba32bf07" />
 
@@ -143,12 +143,12 @@
 <img width="260" height="54" alt="image" src="https://github.com/user-attachments/assets/356754ea-b395-47cd-bdcd-af0c76a547a7" />
 
 ## DESHABILITAR EL USUARIO CONTRATISTA DE MELBOURNE
-  - Entramos al OU de Melbourne y le damos click derecho a "Melbourne Contratista" y le damos a "Deshabilitar cuenta"
+  - Entramos al OU de Melbourne y le damos click derecho a "Melbourne Contratista" y le damos a "Deshabilitar cuenta".
 
 <img width="357" height="115" alt="image" src="https://github.com/user-attachments/assets/5d2e408d-0516-48e5-a7a9-9b0783e612f7" />
 
 ## RESTABLECER LA CONTRASEÑA DEL USUARIO BRISBANE
-  - Entramos al OU de Brisbane y le hamos click derecho a "Restablecer contraseña" y le cambiamos la contraseña
+  - Entramos al OU de Brisbane y le hamos click derecho a "Restablecer contraseña" y le cambiamos la contraseña.
 
 <img width="404" height="313" alt="image" src="https://github.com/user-attachments/assets/ced3f4d0-00c6-46da-96ac-3eade3756945" />
 
@@ -157,11 +157,11 @@
 
 <img width="788" height="566" alt="image" src="https://github.com/user-attachments/assets/f5331c54-ca44-4f1f-8e67-437e4aade844" />
 
-  - Le damos click derecho a "Default Domain Policy"
+  - Le damos click derecho a "Default Domain Policy".
 
 <img width="424" height="468" alt="image" src="https://github.com/user-attachments/assets/1a1901ab-baf0-4be3-a183-3b961506fdc3" />
 
-  - Entramos en "Configuracion del equipo/directivas/directivas de cuentas/directivas de contraseñas"
+  - Entramos en "Configuracion del equipo/directivas/directivas de cuentas/directivas de contraseñas".
 
 <img width="792" height="556" alt="image" src="https://github.com/user-attachments/assets/88505879-913f-4c35-afab-f89ea20ef674" />
 
@@ -170,7 +170,7 @@
 <img width="825" height="643" alt="image" src="https://github.com/user-attachments/assets/43eb20eb-d9b7-40e9-97d7-01c19249b767" />
 
 ## CONFIGURAR UNA POLITICA DE CONTRASEÑA DE GRANO FINO
-  - Vamos a "Administrador de servicio" y "Herramientas" para entras a "Administracion de Active Directory"
+  - Vamos a "Administrador de servicio" y "Herramientas" para entras a "Administracion de Active Directory".
 
 <img width="938" height="211" alt="image" src="https://github.com/user-attachments/assets/1e7b5c56-687c-4530-9e93-552e26ea0058" />
 
@@ -178,8 +178,7 @@
 
 <img width="928" height="586" alt="image" src="https://github.com/user-attachments/assets/254f720a-a898-4af4-b3fc-1cdc5343e113" />
 
-  - Le establecemos la configuracion necesaria y le damos a "Aceptar"
-
+  - Le establecemos la configuracion necesaria y le damos a "Aceptar".
 <img width="922" height="594" alt="image" src="https://github.com/user-attachments/assets/980a41e6-d9b2-4d34-95d4-4a94c19174c8" />
 
   - Pero antes ten en cuenta que debemos agregar al usuario "Domain Admins" primero (tienes que crear un usuario para que te deje).
@@ -187,16 +186,16 @@
 <img width="567" height="335" alt="image" src="https://github.com/user-attachments/assets/23332588-169a-458d-8eac-d5a3831eb2dd" />
 
 ## COMO HABILITAR LA PAPELERA DE RECICLAJE EN ACTIVE DIRECTORY
-  - Le damos click derecho a "tailwindtraders (local)" y le damos a "Hablitar papelera de reciclaje" para darle a "Aceptar"
+  - Le damos click derecho a "tailwindtraders (local)" y le damos a "Hablitar papelera de reciclaje" para darle a "Aceptar".
 
 <img width="858" height="299" alt="image" src="https://github.com/user-attachments/assets/04ee2595-816e-4abc-a431-8ab0ee467769" />
 
 ## RESTRINGIR LA AUTENTIFICACION NTLM
-  - Vamos a "Administrador de servicio" y "Herramientas" para entras a "Administracion de directiva de grupos"
+  - Vamos a "Administrador de servicio" y "Herramientas" para entras a "Administracion de directiva de grupos".
 
 <img width="938" height="658" alt="image" src="https://github.com/user-attachments/assets/4b3de416-c89d-4e88-b8ce-a177551f3e3a" />
 
-  - Entramos a "Default Domain Controllers Policy" y le damos click derecho para editarlo
+  - Entramos a "Default Domain Controllers Policy" y le damos click derecho para editarlo.
 
 <img width="785" height="579" alt="image" src="https://github.com/user-attachments/assets/8fc28ccf-75cb-4ff6-92ea-c1ae229cdd37" />
 
@@ -204,17 +203,17 @@
 
 <img width="758" height="262" alt="image" src="https://github.com/user-attachments/assets/885c64f5-395a-4a44-a971-31076c5e1aa7" />
 
-  - Le damos a "Definir esta configuracion de directiva" y "Denegar todo"
+  - Le damos a "Definir esta configuracion de directiva" y "Denegar todo".
 
 <img width="477" height="530" alt="image" src="https://github.com/user-attachments/assets/16823499-bbbd-4230-8f95-e8ec1b007354" />
 
 ## ADUDITORIA DE LA GESTION DE CUENTAS DE USUARIO EN SYDNEY
-  - Entrados al OU de "Sydney" y le hacemos click derecho y le damos a "Crear un GPO en este dominio y vincularlo aquí"
+  - Entrados al OU de "Sydney" y le hacemos click derecho y le damos a "Crear un GPO en este dominio y vincularlo aquí".
 
 <img width="565" height="466" alt="image" src="https://github.com/user-attachments/assets/b72bfbae-0879-4bc6-a62a-07261e534424" />
 <img width="742" height="558" alt="image" src="https://github.com/user-attachments/assets/f341dad5-6f44-421a-9111-cd5e1220799b" />
 
-  - Entramos al "adminsitrador de cuentas" y le damos doble click a "Auditoría de gestión de cuentas de usuario"
+  - Entramos al "adminsitrador de cuentas" y le damos doble click a "Auditoría de gestión de cuentas de usuario".
 
 <img width="440" height="491" alt="image" src="https://github.com/user-attachments/assets/d71f942d-33d0-4411-b8b7-5eb9c4f2c594" />
 
@@ -227,7 +226,7 @@
 
 <img width="867" height="602" alt="image" src="https://github.com/user-attachments/assets/f5b6c022-1b7f-4484-bc2d-eea171c401cf" />
 
-  - Entramos en "Asignación de derechos de usuario" y le damos doble click a "Denegar inicio de sesión como servicio" 
+  - Entramos en "Asignación de derechos de usuario" y le damos doble click a "Denegar inicio de sesión como servicio". 
 
 <img width="889" height="633" alt="image" src="https://github.com/user-attachments/assets/53d11295-181d-4a6d-bfc4-4cb3e819e08f" />
 
