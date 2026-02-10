@@ -1,4 +1,4 @@
-<img width="729" height="280" alt="imagen" src="https://github.com/user-attachments/assets/fbce65c4-89ad-48f1-8a11-9b8708c16aa7" /># SERVICIOS DE DOMINIO
+# SERVICIOS DE DOMINIO
 Seguiremos estos pasos para instalar OpenLDAP en un servidor Linux:
 - Instalamos un servidor Linux dentro de nuestra maquinas y ponemos el siguiente comando para instalarlo:
 
