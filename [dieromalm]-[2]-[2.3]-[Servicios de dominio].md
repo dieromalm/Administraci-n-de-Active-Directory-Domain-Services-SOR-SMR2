@@ -65,7 +65,7 @@ Seguiremos estos pasos para instalar OpenLDAP en un servidor Linux:
 
 <img width="876" height="172" alt="imagen" src="https://github.com/user-attachments/assets/fd0d8562-68e9-46e8-9b43-dcdcfdfdcd65" />
 
-## INSTALACION DE PHPLDAPADMIN
+## INSTALACION DE PHPLDAPADMIN (TAMBIEN EN FORMA GRAFICA)
 - Usamos este comando para instalarlo:
 
 <img width="947" height="226" alt="imagen" src="https://github.com/user-attachments/assets/654befeb-5a60-46a4-a7f5-827af1499436" />
@@ -75,3 +75,68 @@ Seguiremos estos pasos para instalar OpenLDAP en un servidor Linux:
 <img width="586" height="69" alt="imagen" src="https://github.com/user-attachments/assets/6bda1793-fba2-4ed3-8c03-69b31f60de07" />
 <img width="586" height="69" alt="imagen" src="https://github.com/user-attachments/assets/f0962c96-5b18-446b-b2d0-ee8abdc3101b" />
 <img width="586" height="69" alt="imagen" src="https://github.com/user-attachments/assets/fff0da8a-7bbc-4d46-9adf-68ac58127fba" />
+
+- Cuando lo tengamos configurado, conectamos un cliente a la red del servidor y ponemos "https://(IP)/phpldapadmin"  en el buscador.
+
+<img width="906" height="468" alt="imagen" src="https://github.com/user-attachments/assets/c83e0326-6963-4259-a9b8-3142c4fcf881" />
+
+- Podemos crear un usuario facilmente desde la pagina
+
+<img width="646" height="637" alt="imagen" src="https://github.com/user-attachments/assets/066c0bfa-5aea-41d6-a42f-9b36908020f5" />
+
+- Y se nos añadiria dentro de la lista de usuarios
+
+<img width="328" height="276" alt="imagen" src="https://github.com/user-attachments/assets/b67da126-fbfb-4994-98db-b3713d0aa9b0" />
+
+## INSTALACION Y CONFIGURACION DE LOS USUARIOS
+- Entramos a nuestro cliente de Ubuntu y instalamos lo siguiente con este comando:"sudo apt install libpam-ldap libnss-ldap nss-updatedb libnss-db nscd ldap-utils"
+
+- Se nos abra una pantalla en donde hay que poner la IP.
+
+<img width="708" height="317" alt="imagen" src="https://github.com/user-attachments/assets/6ed6ea4c-983a-47c0-8b57-acbd302919fe" />
+
+- Despues ponemos el DN.
+
+<img width="708" height="317" alt="imagen" src="https://github.com/user-attachments/assets/a63d661c-980f-4438-8168-9d05527b7823" />
+
+- Aplicamos la version de LDAP que queremos.
+
+<img width="708" height="317" alt="imagen" src="https://github.com/user-attachments/assets/fb5b0bb2-5d45-4f2a-8da8-99fd0532808e" />
+
+- Le damos que si al comportamiento de contraseñas.
+
+<img width="708" height="317" alt="imagen" src="https://github.com/user-attachments/assets/9ad9d180-778e-4e41-99db-05b22aa25931" />
+
+- Ponemos el usuario.
+
+<img width="686" height="317" alt="imagen" src="https://github.com/user-attachments/assets/140ecc7d-1b66-4aea-8c36-17be3dc625cc" />
+
+- Añadimos la contraseña del LDAP root.
+
+<img width="718" height="392" alt="imagen" src="https://github.com/user-attachments/assets/b464bac1-69d4-4df9-b875-ff0ee3998867" />
+
+- Modificamos el "/etc/nsswitch.conf".
+
+<img width="718" height="392" alt="imagen" src="https://github.com/user-attachments/assets/83f69daa-51b9-48ba-903d-fb4082eb51b2" />
+
+- Y una vez todo configurado, ponemos este comando para actualizar el NSS.
+
+<img width="437" height="53" alt="imagen" src="https://github.com/user-attachments/assets/3694e0ba-f984-4d86-a0fd-0bada3bb7ba6" />
+
+- Comprobamos el fichero "ldap.conf"
+
+<img width="558" height="280" alt="imagen" src="https://github.com/user-attachments/assets/4d12ed8f-e3d5-4051-8b0b-fc7900019ced" />
+
+- Con el comando "getent passwd" podemos ver los usuarios.
+
+<img width="717" height="280" alt="imagen" src="https://github.com/user-attachments/assets/73978d12-7093-42f1-a279-a155a514d7ed" />
+
+- Activamos la autentificacion PAM con el comando "sudo pam-auth-update" y le damos a lo siguiente antes de darle a Aceptar.
+
+<img width="717" height="396" alt="imagen" src="https://github.com/user-attachments/assets/a7915a19-55ee-466b-8c68-37dc9138720a" />
+
+- Y una vez hecho, ya estara configurado en el PAM.
+
+<img width="717" height="396" alt="imagen" src="https://github.com/user-attachments/assets/fa76ae27-e668-4b5f-ac27-61dbe46856c0" />
+
+- Una vez que reiniciemos la maquina, deberian salir.
