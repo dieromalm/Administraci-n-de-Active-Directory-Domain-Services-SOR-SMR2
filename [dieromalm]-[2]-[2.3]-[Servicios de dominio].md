@@ -9,6 +9,10 @@ Seguiremos estos pasos para instalar OpenLDAP en un servidor Linux:
 
 <img width="478" height="257" alt="imagen" src="https://github.com/user-attachments/assets/c0eb5761-0ccb-4c08-8e8b-ebf3a38a9e4e" />
 
+- Tambien editamos el directorio Netplan y lo configuramos de la siguiente manera:
+
+<img width="580" height="227" alt="imagen" src="https://github.com/user-attachments/assets/1a462ee3-bc08-4696-8c39-6068cd98eb01" />
+
 - Miramos con el comando "dpkg –L slapd | grep (cualquier archivo)" para mirar dentro del archivo que nos ha creado la instalacion por el nombre que le pongamos, destacandolos con color por el -L.
 
 <img width="600" height="318" alt="imagen" src="https://github.com/user-attachments/assets/76990564-2029-4408-bfdf-b69021dc57c7" />
@@ -36,3 +40,4 @@ Seguiremos estos pasos para instalar OpenLDAP en un servidor Linux:
 
 <img width="1014" height="263" alt="imagen" src="https://github.com/user-attachments/assets/44e7163a-59cc-4aa5-8555-a51928b03f65" />
 
+- 
